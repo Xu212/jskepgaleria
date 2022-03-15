@@ -1,0 +1,15 @@
+#osszes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#osszes img{
+    width: 33%;
+    flex: 0 0 33%;
+}
+#nagykep{
+    width:50%;
+}
+#galeria{
+    text-align: center;
+}
