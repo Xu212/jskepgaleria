@@ -1,4 +1,4 @@
-var kepek = ["kepek/_DSC7025.jpg", "kepek/_DSC7365.jpg", "kepek/_DSC7371_1.jpg", "kepek/_DSC7444.jpg", "kepek/_DSC7515.jpg"];
+var kepek = ["kepek/DSC7025.jpg", "kepek/DSC7365.jpg", "kepek/DSC7371_1.jpg", "kepek/DSC7444.jpg", "kepek/DSC7515.jpg"];
 window.addEventListener("load", init);
 var i = 0;
 function init(){
