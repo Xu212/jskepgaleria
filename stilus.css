@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
 }
 #osszes img{
     width: 33%;
@@ -9,7 +11,27 @@
 }
 #nagykep{
     width:50%;
+} 
+#kozep{
+    width: 100%;
+    display: flex;
+}
+#uj{
+    width: 100px;
+}
+body{
+    text-align: center;
 }
 #galeria{
-    text-align: center;
+margin: auto;
+}
+@media screen and (max-width:1200px){
+    #osszes img{
+        width: 50%;
+    }
+}
+@media screen and (max-width:900px){
+    #osszes img{
+        width: 100%;
+    }
 }

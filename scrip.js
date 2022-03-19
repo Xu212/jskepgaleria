@@ -21,7 +21,7 @@ function balkep(){
 }
 function jobbkep(){
     ++i;
-    if(i>kepek.length){
+    if(i>kepek.length-1){
         i=0
     }
     document.getElementById("nagykep").src=kepek[i];
